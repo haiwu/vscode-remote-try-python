@@ -34,9 +34,9 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "pip3 install -r requirements.txt",
 
-	"runArgs": [
-          "--userns=keep-id:uid=1000,gid=1000"
-        ],
+	// "runArgs": [
+        //  "--userns=keep-id:uid=1000,gid=1000"
+        // ],
         "containerUser": "vscode",
         "updateRemoteUserUID": true,
         "containerEnv": {
